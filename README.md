@@ -17,7 +17,7 @@ That said, if anyone actually wants to use it drop me line and I'll put a little
 
 	Tab seperated. Columns are: team, firstname, surname, gender, overall skill level, skill array, friend 1, friend 2, friend 3
 
-	Friends are optional, the system trieds to place people on a team with their friends after balancing genders and skill.
+	Friends are optional, the system tries to place people on a team with their friends after balancing genders and skill.
 	Skill array is 4 values, "experience, skill, condition, speed".
 
 	To start I suggest putting one person on each team until you run out of teams, then putting everone else on the magic "noteam".
@@ -28,21 +28,21 @@ That said, if anyone actually wants to use it drop me line and I'll put a little
 6. at this point
  * if it worked well, save it (your file will be saved as something like 1307085427307.tsv)
  * if it almost worked, you can drag people around to tweak it
- * if it looks bad you can do the clear&all step again one or more times
+ * if it looks bad you can do the clear&all steps again one or more times
 
 
 
 ## TODO
 
 * better instructions
+ * explain player data display
+* more error handling
 * impliment "new team" menu item
 * better save mechanic (currently saves to a file based on the time)
 * better load mechanic (currently CLI only).
 * better file format
 * stick classes in a package
-* more error handling
 * undo
-* explain player data display
 
 ## BUGS
 
